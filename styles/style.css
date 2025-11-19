@@ -58,7 +58,6 @@
 .main__card {
 	border: 1px solid black;
 	background-color: var(--bg-color);
-  height: 
 }
 
 .main__card:not(:first-child) {
