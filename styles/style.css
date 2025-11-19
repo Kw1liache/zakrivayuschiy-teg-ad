@@ -39,7 +39,6 @@
 .header__logo {
   font-family: var(--accent-font);
   font-weight: 400;
-  font-size: 65px;
   text-transform: uppercase;
   color: #000;
   font-size: var(--title-size);
@@ -51,7 +50,6 @@
   font-family: var(--accent-font);
   font-weight: 400;
   font-size: 23px;
-  text-transform: uppercase;
   color: #000;
 }
 
@@ -75,7 +73,6 @@
   font-weight: var(--main-card-font-weight);
   font-size: 18px;
   color: #000;
-  border: 2px solid #000;
   height: 31px;
   border: 2px solid #000;
 }
@@ -91,12 +88,12 @@
 	top: 25px;
 	right: 25px;
 	z-index: 2;
-	opacity: 0.6;
+	opacity: 0.4;
 	text-align: end;
 	font-family: var(--accent-font);
 	font-size: 14px;
 	-webkit-text-stroke: 1px white;
-	 mix-blend-mode: hard-light;
+  mix-blend-mode: hard-light;
 }
 
 .card__image {
@@ -114,7 +111,7 @@
 .card__text {
   margin: 25px 25px;
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: var(--main-card-font-weight);
   font-size: 18px;
   line-height: 117%;
   color: #000;
@@ -179,3 +176,19 @@
 .card__image8 {
 	
 }
+
+.dialog {
+
+}
+
+.dialog__content {
+  padding: 15px 20px;
+  width: 335px;
+  height: 55px;
+}
+
+.save__button {
+  padding: 15px 20px;
+  width: 335px;
+  height: 55px;
+  }
