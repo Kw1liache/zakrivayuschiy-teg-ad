@@ -113,7 +113,6 @@
   font-size: 18px;
   line-height: 117%;
   color: #000;
-  font-size: var(--text-size);
 }
 
 .card__controls {
