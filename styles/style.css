@@ -66,7 +66,7 @@
 
 .card__title {
   padding: 5px 10px;
-	border: 1px solid black;
+	border: 2px solid black;
 	text-wrap: balance;
 	font-size: 18px;
   font-weight: var(--main-card-font-weight);
@@ -119,45 +119,32 @@
   
 }
 
-.card__image1 {
-  filter: ;
-	
-}
-
 .card__image2 {
-	
+	filter: saturate(30%);
 }
 
 .card__image3 {
-	
+	filter: grayscale(1);
 }
 
 .card__image4 {
-	
+	filter: invert(1);
 }
 
 .card__image5 {
-	
+	filter: hue-rotate(270deg);
 }
 
 .card__image6 {
-	
+	filter: sepia(1);
 }
 
 .card__image7 {
-	
+	filter: blur(20px);
 }
 
 .card__image8 {
-	
-}
-
-.save__button {
-  padding: 15px 20px;
-  width: 335px;
-  height: 55px;
-  display: flex;
-  align-items: center;
+	filter:  brightness(65%) contrast(185%) hue-rotate(90deg);
 }
 
 .element {
@@ -169,7 +156,7 @@
   margin-top: 22px;
 	display: flex;
 	justify-content: end;
-	gap: 4px;
+	margin-bottom: -1px;
 }
 
 .card__icon-button {
